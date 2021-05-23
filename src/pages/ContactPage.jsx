@@ -1,7 +1,7 @@
 import React from 'react';
 import Style from './ContactPage.module.css'
 import Footer from '../components/Footer'
-import { Autorenew } from '@material-ui/icons';
+
 
 function ContactPage()
 {
