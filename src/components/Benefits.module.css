@@ -1,0 +1,75 @@
+.benefit_text{
+    font-weight: bold;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+.benefit_bigtext{
+    font-weight: bold;
+    font-size: 35px;
+}
+.benefitex{
+    margin-bottom:80px;
+}
+.benefit{
+    background-color: #f9f9f9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:0px 0 20px 0;
+}
+.benefitcontainer{
+    margin-left: 220px;
+}
+/*CSS*/
+
+.tabcontainer{
+    display: flex; 
+    margin-left: 220px;
+    align-items: center;
+}
+.tabs{
+    list-style: none;  
+}
+.tabitem{
+    border-left:3px solid black ;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.tabitem:hover{
+    cursor: pointer;
+    border-color:mediumblue;
+   
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .benefitcontainer{
+        margin-left: 40px;
+        margin-right: 0px;
+        
+    }
+    .tabcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       margin-left: -20px;
+    }
+    .tabitem{
+        display: inline-flex;
+        margin-left:10px;
+        border-left: 0px;
+        border-top: 3px solid grey;   
+        width:auto;
+        margin-left: 0px;
+       
+     }
+   
+
+}   
+.tabitem:active{
+    color: mediumblue;
+}

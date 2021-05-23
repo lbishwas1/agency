@@ -1,0 +1,86 @@
+.business{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #f9f9f9;
+}
+.footerbtn{
+    height: 40px;
+    width:120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:mediumblue;
+    color:white;
+    border: 1px solid;
+    border-color:mediumblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footerbtn:hover{
+    opacity: 0.8;
+}
+.footer{
+    height: 100%;
+    background-color: #2c2c33;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+input{
+    height: 40px;
+    width:320px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 30px;
+}
+
+.footertop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    padding: 50px;
+}
+.footeritem{
+    margin-right: 25px;
+}
+.footeritem:hover{
+    cursor: pointer;
+    color:mediumblue;
+}
+
+.social{
+    margin-top:50px; 
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+}
+
+.certificates{
+    margin: 80px 20px 0 0;
+}
+.footertext{
+    width: 425px;
+}
+.footernav{
+   list-style: none;
+display: inline-flex;
+margin-left: -35px;
+margin-bottom: 35px;
+}
+.footerbottom{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .certificates{
+        border-bottom: 1px solid white;
+        padding-bottom: 40px;
+    }
+
+}

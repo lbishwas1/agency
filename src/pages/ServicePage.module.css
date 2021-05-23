@@ -1,0 +1,56 @@
+.service{
+    margin-top: 0px;
+    height:100%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.container{
+    margin-left: 220px;
+    width:600px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+}
+.casecontainer{
+    display: flex;
+      flex-direction: row;
+     flex-wrap: wrap;
+       margin-left:220px;
+   }
+@media only screen and (max-width: 900px) {
+    .container{
+        margin-left: 40px;
+        width: 440px;
+    }
+    .casecontainer{
+        margin-left: 0px;
+        justify-content: center;
+    }
+    
+}
+
+.casecard{
+    min-width: 390px ;
+    height:450px;
+    background-color: whitesmoke;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    margin-left: 13px;
+}
+.casecard:hover{
+    opacity: 0.8;
+}
+.algo{
+    margin-bottom: 20px;
+
+}
+.framework{
+    margin-top: -10px;
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+}

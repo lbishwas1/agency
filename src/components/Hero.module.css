@@ -1,0 +1,33 @@
+.herocontainer{
+display: flex;
+flex-direction: column;
+margin-left: 220px;
+}
+.header{
+    margin-top: 140px;
+    font-size: 50px;
+     font-weight: bold;
+   margin-bottom: 60px;
+}
+.hero_explain{
+    margin-bottom: 50px;
+    margin-top: -40px;
+    width: 430px;
+}
+.hero_button{ 
+    margin-bottom: 100px;
+    height: 45px;
+    width: 200px;
+    background-color: mediumblue;  
+    color:white;
+    border: 1px solid;
+    border-color:mediumblue;
+    border-radius: 10px;  
+    cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+    .herocontainer{
+        margin-left: 40px;
+    }
+   
+}

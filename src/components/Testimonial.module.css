@@ -1,0 +1,47 @@
+.test_text{
+    font-weight: bold;
+}
+.test_bigtext{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: -10px;
+
+}
+.testex{
+    margin-bottom:80px;
+}
+.test{
+    display: flex;
+    flex-wrap: wrap;
+}
+.testitem{
+    width:500px;
+    margin-right: 70px;
+  
+
+}
+.testcon{
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+
+}
+.testcontainer{
+    margin-left: 220px;
+}
+@media only screen and (max-width: 900px) {
+    .testcontainer{
+        margin-left: 40px;
+    }
+
+  
+}
